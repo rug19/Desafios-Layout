@@ -1,6 +1,6 @@
 ## 🚀 Desafios de Layout 🚀
 
-***Se a falta de tempo for justificada para você não tirar projeto do papel. somente os desocupados teriam sucesso. - Flávio Augusto da Silva "***
+***" Se a falta de tempo for justificada para você não tirar projeto do papel. somente os desocupados teriam sucesso. - Flávio Augusto da Silva "***
 
 ## Selecione um dos projetos e crie uma pasta com o seu nome, em seguida, comece a trabalhar nele.
 ### Dicas:

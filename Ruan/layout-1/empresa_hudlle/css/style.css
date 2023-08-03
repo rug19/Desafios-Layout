@@ -505,13 +505,13 @@ footer p {
     .bg-wave-section3-top {
         background: url(../images/bg-section-top-mobile-2.svg) no-repeat;
         background-size: cover;
-        height: 10rem;
+        height: 13rem;
     }
 
     .bg-wave-section3-bottom {
         background: url(../images/bg-section-bottom-mobile-2.svg) no-repeat;
         background-size: cover;
-        height: 10rem;
+        height: 13rem;
     }
 
     .thid-container {
@@ -595,7 +595,7 @@ footer p {
     }
 
     footer {
-        padding: 0rem 1rem;
+        padding: 0rem 1rem 2rem;
 
     }
 
@@ -615,7 +615,7 @@ footer p {
     .bg-wave-footer {
         background: url(../images/bg-footer-top-mobile.svg)no-repeat;
         background-size: cover;
-        height: 2.6rem
+        height: 5.6rem
     }
 
     .footer-section1 {
@@ -623,4 +623,16 @@ footer p {
     }
 
 
+}
+
+@media (max-width:414px) {
+    .bg-wave-section3-top, .bg-wave-section3-bottom {
+        background-size: cover;
+        height: 10rem;
+    }
+    
+    .bg-wave-footer {
+        background-size: cover;
+        height: 2.6rem
+    }
 }

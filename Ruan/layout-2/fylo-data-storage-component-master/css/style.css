@@ -32,16 +32,10 @@
     height: 10rem;
 }
 
-.img-logo img {
-    width: 7.5rem;
-    margin-bottom: 1rem;
-}
-
-.container-icons img {
+/* .container-icons img {
     width: 1.4rem;
     height: 1.3rem;
-
-}
+} */
 
 .container-icons div {
     display: flex;
@@ -78,10 +72,10 @@
 }
 
 .mini-container {
-    background-color: var(--Pale-Blue);
+    background-color: white;
     width: 9rem;
     height: 4rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .mini-container p {

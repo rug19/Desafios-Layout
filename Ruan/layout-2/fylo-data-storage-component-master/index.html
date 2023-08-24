@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Meus estilos CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title> Fylo data storage component</title>
+</head>
+
+<body>
+  <!-- Container pai  -->
+  <section class="background-mobile d-flex flex-column justify-content-center align-items-center gap-3 ">
+    <!-- container logo e icons -->
+    <div class="container-logo d-flex flex-column justify-content-around p-4">
+      <!-- Imagem logo -->
+      <div class="img-logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <!-- Container Icons -->
+      <div class="container-icons d-flex gap-3">
+        <div class="document">
+          <img src="./images/icon-document.svg" alt="icon-document">
+        </div>
+        <div>
+          <img src="./images/icon-folder.svg" alt="icon-folder">
+        </div>
+        <div>
+          <img src="./images/icon-upload.svg" alt="icon-upload">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Segundo container -->
+    <div class="sub-container">
+      <div class="row p-3">
+        <div>
+          <p class="text-center">You’ve used <span>815 GB</span> of your storage</p>
+          <label for="control"></label>
+          <input type="range" name="control" id="control">
+        </div>
+        <div class="d-flex justify-content-between">
+          <p>
+            <span>0 GB</span>
+          </p>
+          <p>
+            <span>1000 GB</span>
+          </p>
+        </div>
+        <div class="mini-container  p-2">
+          <p class="text-center"> 185 <span> GB Left </span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

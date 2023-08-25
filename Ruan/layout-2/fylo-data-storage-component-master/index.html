@@ -17,35 +17,41 @@
   <!-- Container pai  -->
   <section class="background-mobile d-flex flex-column justify-content-center align-items-center gap-3 ">
     <!-- container logo e icons -->
-    <div class="container-logo d-flex flex-column justify-content-around p-4">
-      <!-- Imagem logo -->
-      <div class="img-logo">
-        <img class="w-50 mb-2" src="./images/logo.svg" alt="logo">
-      </div>
-      <!-- Container Icons -->
-      <div class="container-icons d-flex  gap-3">
-        <div>
-          <img class="w-50" src="./images/icon-document.svg" alt="icon-document">
+    <div class="container container-logo d-flex flex-column justify-content-around p-4">
+      <div class="row">
+        <!-- Imagem logo -->
+        <div class="img-logo">
+          <img class="w-50 mb-4" src="./images/logo.svg" alt="logo">
         </div>
-        <div>
-          <img class="w-50" src="./images/icon-folder.svg" alt="icon-folder">
-        </div>
-        <div>
-          <img class="w-50" src="./images/icon-upload.svg" alt="icon-upload">
+
+        <!-- Container Icons -->
+        <div class="container-icons  d-flex  gap-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-document.svg" alt="icon-document">
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-folder.svg" alt="icon-folder">
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-upload.svg" alt="icon-upload">
+          </div>
         </div>
       </div>
     </div>
 
-
     <!-- Segundo container -->
-    <div class="sub-container">
-      <div class="row p-3 justify-content-center">
+    <div class=" container sub-container p-3">
+      <div class="row">
         <div>
           <p class="text-center">You’ve used <span>815 GB</span> of your storage</p>
-          <label for="control"></label>
-          <input type="range" name="control" id="control">
+          <div class="ranger-container mb-2 p-1 d-flex align-items-center">
+            <div class="range d-flex justify-content-end align-items-center ">
+              <div class="range-ball">
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between align-items-center">
           <p>
             <span>0 GB</span>
           </p>
@@ -53,8 +59,10 @@
             <span>1000 GB</span>
           </p>
         </div>
-        <div class="mini-container  p-2">
-          <p class="text-center"> 185 <span> GB Left </span></p>
+        <div class=" container mini-container">
+          <div class="row">
+            <p class="text-center p-2 m-0"> 185 <span class="text-center"> GB LEFT </span>
+          </div>
         </div>
       </div>
     </div>

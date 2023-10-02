@@ -79,10 +79,13 @@
     font-size: 2rem;
 }
 
+
 .mini-container span {
     font-size: 0.7rem;
     color: var(--Grayish-Blue);
-    text-align: center;
+    font-family:var(--Raleway-700) ;
+    
+    
 }
 
 .ranger-container {
@@ -108,3 +111,6 @@
     border-radius: 10px;
     margin-right: 2px;
 }
+
+
+

@@ -43,7 +43,7 @@
   border-radius: 9px 9px 9px 9px;
 }
 
-.sub-container p {
+.sub-container p, .container-gb {
   font-size: 0.8rem;
   font-family: var(--Raleway-700);
   color: var(--Pale-Blue);
@@ -62,7 +62,7 @@
 .mini-container {
   background-color: white;
   width: 9rem;
-  height: 4rem;
+  height: 3.5rem;
   border-radius: 0.5rem;
 }
 
@@ -71,6 +71,7 @@
   font-family: var(--Raleway-700);
   font-weight: bold;
   font-size: 2rem;
+  
 }
 
 .mini-container span {
@@ -103,13 +104,6 @@
 }
 
 @media (min-width: 768px) {
-   .background-container {
-    background-color: var(--Very-Dark-Blue);
-    background-image: url("../images/bg-desktop.png");
-    background-repeat: no-repeat;
-    
-  }
 
 
-  
 }

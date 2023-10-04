@@ -25,7 +25,7 @@
 .container-logo {
   background-color: var(--Dark-Blue);
   width: 20rem;
-  border-radius: 9px 80px 9px 9px;
+  border-radius: 9px 109px 9px 9px;
   height: 12rem;
 }
 
@@ -103,5 +103,7 @@
   margin-right: 2px;
 }
 
+
+/* Decidi adptar para versão tablet, porque a partir do momento que vai aumentando a tela o coteundo fica muito pequeno  */
 @media (min-width: 768px) {
 }

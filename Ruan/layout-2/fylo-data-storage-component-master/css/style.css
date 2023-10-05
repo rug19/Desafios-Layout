@@ -15,8 +15,14 @@
   --Raleway-700: "Raleway", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .background-container {
-  background-image: url("../images/bg-mobile.png");
+  background: url("../images/bg-mobile.png");
   background-size: cover;
   min-height: 100vh;
   color: var(--Pale-Blue);
@@ -103,7 +109,18 @@
   margin-right: 2px;
 }
 
+/* Nessa parte iria passar as informações para a versão desktop, porém  */
+@media (min-width: 1440px) {
 
-/* Decidi adptar para versão tablet, porque a partir do momento que vai aumentando a tela o coteundo fica muito pequeno  */
-@media (min-width: 768px) {
+
+  .background-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Very-Dark-Blue);
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+  }
 }
+
